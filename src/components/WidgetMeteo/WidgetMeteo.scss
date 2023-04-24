@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(320deg, lightskyblue, rgb(97, 172, 218), rgb(25, 108, 160));
+    min-height: 100vh;
+  }
+  
+  .meteo {
+    margin: 1.5rem auto;
+    max-width: 280px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 10px; 
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+  
+    &-city {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  
+    &-code {
+      opacity: .25;
+      margin-bottom: 0.7rem;
+    }
+  
+    &-temperature {
+      font-size: 2em;
+      font-weight: bold;
+    }
+  }
